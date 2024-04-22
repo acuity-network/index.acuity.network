@@ -1,10 +1,10 @@
 +++
-title = "Acuity Indexer"
+title = "Acuity Index"
 
 
 # The homepage contents
 [extra]
-lead = '<b>Acuity Indexer</b> is a fully decentralized, multi-chain, multi-key event indexer. Query results can be proven by light client.'
+lead = '<b>Acuity Index</b> is a fully decentralized, multi-chain, multi-key event index. Query results can be proven by light client.'
 url = "/docs/getting-started/introduction/"
 url_button = "Get started"
 repo_version = "GitHub v0.1.0"
@@ -26,15 +26,15 @@ weight = 20
 
 [[extra.list]]
 title = "Enables true dapps 🦄"
-content = 'Fast, rich dapps can be built without any backend whatsoever, connecting to an index provided by anyone.'
+content = 'Fast, rich dapps can be built without any backend whatsoever, connecting to an index node provided by anyone.'
 
 [[extra.list]]
 title = "Provable query results 🤓"
-content = "Data returned from an index can be mathematically verified using the light client of the chain."
+content = "Data returned from an index node can be mathematically verified using the light client of the chain."
 
 [[extra.list]]
 title = "Free or revenue generating 🤑"
-content = 'An index can be free to query, or require payments in ACU or the native currency of the index.'
+content = 'An index node can be free to query, or require payments in ACU or the native currency of the index.'
 
 [[extra.list]]
 title = "Multi-chain 🌏"
@@ -46,6 +46,6 @@ content = "Less data needs to be stored in on-chain state. EVM smart contracts c
 
 [[extra.list]]
 title = "Decentralized index discovery 🔍"
-content = 'Indexes can be registered on the Acuity blockchain.'
+content = 'Index nodes can be registered on the Acuity blockchain.'
 
 +++
