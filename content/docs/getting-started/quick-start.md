@@ -9,14 +9,13 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "One page summary of how to start a new AdiDoks project."
+lead = "One page summary of how to index and query a Polkadot, Kusama, Westend or Rococo full node."
 toc = true
 top = false
 +++
 
 ## Requirements
 
-Before using the theme, you need to install the [Zola](https://www.getzola.org/documentation/getting-started/installation/) ≥ 0.15.0.
 
 ## Run the Theme Directly
 

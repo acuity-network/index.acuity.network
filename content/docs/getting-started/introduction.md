@@ -9,14 +9,14 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = 'AdiDoks is a Zola theme helping you build modern documentation websites, which is a port of the Hugo theme <a href="https://github.com/h-enk/doks">Doks</a> for Zola.'
+lead = 'Acuity Index is a very large project to provide decentralized indexing for the entire blockchain ecosystem. Full documentation can be found in the <a href="https://index.acuity.tools/">Acuity Index Book</a>.'
 toc = true
 top = false
 +++
 
 ## Quick Start
 
-One page summary of how to start a new AdiDoks project. [Quick Start →](../quick-start/)
+Acuity Index currently supports Substrate chains. This functionality was funded by the Web3 Foundation. To learn how to index and query a Polkadot, Kusama, Westend or Rococo full node, follow the  [Quick Start Guide →](../quick-start/)
 
 ## Go further
 

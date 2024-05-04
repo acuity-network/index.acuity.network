@@ -7,8 +7,8 @@ title = "Acuity Index"
 lead = '<b>Acuity Index</b> is a fully decentralized, multi-chain, multi-key event index. Query results can be proven by light client.'
 url = "/docs/getting-started/introduction/"
 url_button = "Get started"
-repo_version = "GitHub v0.1.0"
-repo_license = "Open-source Apache 2.0 License."
+repo_version = ""
+repo_license = ""
 repo_url = "https://github.com/aaranxu/adidoks"
 
 # Menu items
