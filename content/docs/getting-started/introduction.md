@@ -9,7 +9,7 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = 'Acuity Index is a very large project to provide decentralized indexing for the entire blockchain ecosystem. Full documentation can be found in the <a href="https://index.acuity.tools/">Acuity Index Book</a>.'
+lead = 'Acuity Index is a very large project to provide decentralized indexing for the entire blockchain ecosystem. Full documentation can be found in the <a href="https://book.index.acuity.network/">Acuity Index Book</a>.'
 toc = true
 top = false
 +++
