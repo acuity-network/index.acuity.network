@@ -5,7 +5,7 @@ title = "Acuity Index"
 # The homepage contents
 [extra]
 lead = '<b>Acuity Index</b> is a fully decentralized, multi-chain, multi-key event index. Query results can be proven by light client.'
-url = "/docs/getting-started/introduction/"
+url = "/docs/about/problem/"
 url_button = "Get started"
 repo_version = ""
 repo_license = ""
