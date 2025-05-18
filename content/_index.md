@@ -15,7 +15,7 @@ repo_url = "https://github.com/aaranxu/adidoks"
 [[extra.menu.main]]
 name = "Docs"
 section = "docs"
-url = "/docs/getting-started/introduction/"
+url = "/docs/about/problem"
 weight = 10
 
 [[extra.menu.main]]
