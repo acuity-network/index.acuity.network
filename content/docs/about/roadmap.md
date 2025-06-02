@@ -14,11 +14,6 @@ toc = true
 top = false
 +++
 
-## Substrate
-
-Acuity Index will support all major blockchain technologies. Currently, only Substrate has been implemented. It was funded by 2 grants from the Web3 Foundation.
-
-
 #### Support more chains
 
 [Acuity Index Polkadot](https://github.com/acuity-network/acuity-index-polkadot) can index the Polkadot chains (Polakdot, Kusama, Westend, Rococo).
@@ -53,10 +48,3 @@ Substrate Index indexes blocks concurrently using a queue system. This greatly i
 #### API support in more languages
 
 Acuity Substrate Index nodes are queried via JSON-RPC over WebSocket. The [Acuity Index Substrate Rust API](https://github.com/acuity-network/acuity-index-substrate-api-rs) library makes it easier. This needs to be implemented for other major languages.
-
-
-## Other chain types
-
-
-Write EVM indexer.
-

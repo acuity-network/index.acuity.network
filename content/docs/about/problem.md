@@ -80,3 +80,5 @@ A very attractive solution to the issues with RPC providers is for dapp develope
 Because searching for logs is unreliable, architects of smart contracts and Substrate pallets may decide to store data in state where it can be more easily retrieved. This is considerably more expensive. The additional use of block-space will also make all other transactions on the chain more expensive.
 
 ## Lack of extensibility
+
+Chains may need to have deeper indexing beyond events. For example, they may wish to have full text search on IPFS content linked from the chain.

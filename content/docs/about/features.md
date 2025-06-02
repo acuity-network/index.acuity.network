@@ -14,10 +14,6 @@ toc = true
 top = false
 +++
 
-Currently, Acuity Index only supports Substrate chains. For more in depth documentation about the project read the [Acuity Index Book](https://book.index.acuity.network).
-
-Unlike other Substrate indexers, Acuity Index is intended to be queried from dapps in the same way that dapps query full nodes. This will revolutionize the capabilities of 
-
 #### Built-in support for Substrate's pallets
 
 Acuity has built-in indexing macros for the following Substrate pallets: System, Preimage, Indices, Balances, Transaction Payment, Staking, Session, Democracy, Collective, Elections Phragmen, Treasury, Vesting, Identity, Proxy, Multisig, Fast Unstake, Election Provider Multi-phase, Tips, Bounties, Child Bounties, Bags List, Nomination Pools.

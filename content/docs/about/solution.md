@@ -38,9 +38,9 @@ For maximum performance, the index can store the event data. Alternatively, it c
 
 An index node can track cumulative query weight, either by authenticated account, or by virtual account (ip address).
 
-## Standardized payment API
+## Standardized API
 
-create fee market for indexes
+Because index nodes for a given chain have an identical API, it makes it very easy for a dapp to switch between different indexes based on availablity, performance, price, etc.
 
 ## Privacy
 
@@ -50,23 +50,4 @@ If the user is paying for their queries, then they can also obfuscate their iden
 
 ## Extensible
 
-full-text, geospatial, etc
-
-## Lower on-chain transaction fees
-
-
---
-
-Optionally it can index event variants. For example, the index could return a list of all balance transfers. This makes the index much larger.
-
-This entails the use of an index. Much like a full node, an event index consumes significant resources and takes a lot of time to synchronize. A dapp cannot maintain its own index. It needs to query an index run by someone else and verify the results using a light client.
-
-This is the purpose of Acuity Index. An event indexer for all chain types that can be verified cryptographically.
-
-When a Hybrid index is queried for a specific key it will return the block number and event index of events that contain the key.
-
-Additionally, it can return the event contents and enough information for the events to be verified by a light client. 
-
-Acuity Index is a blockchain event indexer framework written in Rust. Currently, it can be used to build indexers for Substrate blockchains (Polkadot). In the future it will also support other types of chains such as Ethereum and Bitcoin.
-
-Typically, when writing on-chain code (for example a smart contract or a Substrate pallet) data should only be stored in chain state when it might need to be read during execution of a subsequent transaction. This ensures that transaction fees are kept to an absolute minimum. Events should be emitted containing the data that only needs to be accessed off-chain. This data can then be indexed, either directly on the user's device or via a cloud service.
+Chain indexes can extend indexing beyond events. For example, IPFS full-text search, AI content classification, geospatial search, etc.

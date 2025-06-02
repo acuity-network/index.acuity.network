@@ -4,7 +4,7 @@ title = "Acuity Index"
 
 # The homepage contents
 [extra]
-lead = '<b>Acuity Index</b> is a fully decentralized, multi-chain, multi-key event index. Query results can be proven by light client.'
+lead = '<b>Acuity Index</b> is a fully decentralized, multi-chain, multi-key Polkadot event index. Query results can be proven by light client.'
 url = "/docs/about/problem/"
 url_button = "Get started"
 repo_version = ""
@@ -38,14 +38,14 @@ content = 'An index node can be free to query, or require payments in ACU or the
 
 [[extra.list]]
 title = "Multi-chain 🌏"
-content = 'Currently <a href="https://substrate.io/" target="_blank">Substrate</a> chains can be indexed. Support for other chain types such as EVM and Bitcoin is coming.'
+content = 'All Polkadot chains can join the index.'
 
 [[extra.list]]
 title = "Reduced transaction fees 🪶"
-content = "Less data needs to be stored in on-chain state. EVM smart contracts can issue events without topics to save gas."
+content = "Minimise the quantity of data stored in state to make transactions as cheap as possible."
 
 [[extra.list]]
 title = "Decentralized index discovery 🔍"
-content = 'Index nodes can be registered on the Acuity blockchain.'
+content = 'Index nodes can be registered on the Acuity blockchain or the native chain of the index.'
 
 +++
