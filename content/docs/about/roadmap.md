@@ -16,7 +16,7 @@ top = false
 
 #### Support more chains
 
-[Acuity Index Polkadot](https://github.com/acuity-network/acuity-index-polkadot) can index the Polkadot chains (Polakdot, Kusama, Westend, Rococo).
+[Acuity Index Polkadot](https://github.com/acuity-network/acuity-index-polkadot) can index the Polkadot chains (Polakdot, Kusama, Westend, Paseo).
 
 Indexers for all Substrate chains need to be written and maintained. The [Acuity Index Substrate](https://github.com/acuity-network/acuity-index-substrate) Rust library does all the heavy lifting.
 
