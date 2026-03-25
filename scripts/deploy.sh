@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-zola build
-rsync -avhP --stats --del public/ index.acuity.network:index.acuity.network
+bun run build
+rsync -avhP --stats --del build/ index.acuity.network:index.acuity.network
