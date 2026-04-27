@@ -89,6 +89,11 @@ body {
   padding-top: 3.5625rem;
 }
 
+html,
+body {
+  background: $gray-900;
+}
+
 .docs-sidebar {
   order: 2;
 }

@@ -23,6 +23,15 @@ body.dark {
   color: $body-color-dark;
 }
 
+html {
+  background: $body-bg-dark;
+  color-scheme: dark;
+}
+
+body {
+  color-scheme: dark;
+}
+
 body.dark a {
   color: $link-color-dark;
 }
