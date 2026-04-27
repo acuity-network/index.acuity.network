@@ -1,6 +1,6 @@
 +++
 title = "Getting Started"
-description = "Quick start and guides for installing the AdiDoks theme on your preferred operating system."
+description = "Quick start and guides for using Acuity Index."
 template = "docs/section.html"
 sort_by = "weight"
 weight = 1

@@ -4,12 +4,12 @@ title = "Acuity Index"
 
 # The homepage contents
 [extra]
-lead = '<b>Acuity Index</b> is a fully decentralized, multi-chain, multi-key Polkadot event index. Query results can be proven by light client.'
+lead = '<b>Acuity Index</b> is a fully decentralized, multi-chain, multi-key Polkadot event index. Query results can be proven by a light client.'
 url = "/docs/about/problem/"
 url_button = "Get started"
 repo_version = ""
 repo_license = ""
-repo_url = "https://github.com/aaranxu/adidoks"
+repo_url = "https://github.com/acuity-network/index.acuity.network"
 
 # Menu items
 [[extra.menu.main]]
