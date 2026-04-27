@@ -51,7 +51,7 @@
 				{% endif %}
 			</ul>
 			<div class="break order-6 d-md-none"></div>
-			{% if config.build_search_index %}
+			{% if config.build_search_index and config.search.index_format == "elasticlunr_javascript" %}
 				<form class="navbar-form flex-grow-1 order-7 order-md-3">
 					<input id="userinput" class="form-control is-search" type="search" placeholder="Search docs..."
 						aria-label="Search docs..." autocomplete="off">

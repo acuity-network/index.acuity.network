@@ -15,7 +15,7 @@
   {% endif %}
   
   {% if page.description %}
-    {% set description = page.description %}
+    {% set description = page.description | safe %}
   {% else %}
     {% set description = config.description %}
   {% endif %}
@@ -47,7 +47,7 @@
           <div class="page-header">
             <h1>{{ page.title }}</h1>
           </div>
-          {% if page.extra.lead %}<p class="lead">{{ page.extra.lead }}</p>{% endif %}
+          {% if page.extra.lead %}<p class="lead">{{ page.extra.lead | safe }}</p>{% endif %}
           {{ page.content | safe }}
         </article>
       </div>
