@@ -9,6 +9,7 @@ default_language = "en"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
+sass_options = { load_paths = ["node_modules/bootstrap/scss"] }
 
 # Whether to generate a feed file for the site
 generate_feeds = true

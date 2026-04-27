@@ -21,3 +21,6 @@ check:
 
 fmt:
 	just --list
+
+init:
+	cd themes/adidoks && bun install

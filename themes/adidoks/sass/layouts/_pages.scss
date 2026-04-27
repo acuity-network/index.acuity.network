@@ -37,6 +37,11 @@ h4:hover a {
 p.meta {
   margin-top: 0.5rem;
   font-size: $font-size-base;
+  color: rgb(222, 226, 230);
+}
+
+p.meta a {
+  color: rgb(222, 226, 230);
 }
 
 .breadcrumb {

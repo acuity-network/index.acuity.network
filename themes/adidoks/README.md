@@ -16,6 +16,7 @@ Before using the theme, you need to install the [Zola](https://www.getzola.org/d
 ```bash
 git clone https://github.com/aaranxu/adidoks.git
 cd adidoks
+just init
 zola serve
 # open http://127.0.0.1:1111/ in the browser
 ```
@@ -78,9 +79,11 @@ content directories as needed.
 
 ### Step 5: Run the project
 
-Just run `zola serve` in the root path of the project:
+Run `just init` once to install the theme dependencies, then run `zola serve`
+in the root path of the project:
 
 ```bash
+just init
 zola serve
 ```
 

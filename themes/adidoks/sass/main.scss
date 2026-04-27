@@ -1,11 +1,11 @@
 /** Import Bootstrap functions */
-@import "bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/functions";
 
 /** Import theme variables */
 @import "common/variables";
 
 /** Import Bootstrap */
-@import "bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 /** Import theme styles */
 @import "common/fonts";

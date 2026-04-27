@@ -1,0 +1,8 @@
+{
+  "name": "adidoks-theme",
+  "private": true,
+  "packageManager": "bun@1.1.43",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
