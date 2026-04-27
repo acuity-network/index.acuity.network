@@ -3,10 +3,6 @@
   padding: 0.4375rem 0;
 }
 
-#mode {
-  margin-right: 1.25rem;
-}
-
 .btn-link:focus {
   outline: 0;
   box-shadow: none;
@@ -17,10 +13,6 @@
 }
 
 @include media-breakpoint-up(md) {
-  #mode {
-    margin-right: 0.5rem;
-  }
-
   .navbar .btn-link {
     padding: 0.5625em 0.25rem 0.5rem 0.125rem;
   }
@@ -32,22 +24,6 @@
 
 .navbar .btn-link:active {
   color: $navbar-light-active-color;
-}
-
-body .toggle-dark {
-  display: block;
-}
-
-body .toggle-light {
-  display: none;
-}
-
-body.dark .toggle-light {
-  display: block;
-}
-
-body.dark .toggle-dark {
-  display: none;
 }
 
 .btn-clipboard {
