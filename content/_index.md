@@ -15,7 +15,7 @@ repo_url = "https://github.com/acuity-network/index.acuity.network"
 [[extra.menu.main]]
 name = "Docs"
 section = "docs"
-url = "/docs/about/problem"
+url = "/docs/about/overview/"
 weight = 10
 
 [[extra.menu.main]]
