@@ -9,13 +9,13 @@ url = "/docs/about/problem/"
 url_button = "Get started"
 repo_version = ""
 repo_license = ""
-repo_url = "https://github.com/acuity-network/index.acuity.network"
+repo_url = "https://github.com/acuity-network/acuity-index"
 
 # Menu items
 [[extra.menu.main]]
 name = "Docs"
 section = "docs"
-url = "/docs/about/overview/"
+url = "/docs/about/problem/"
 weight = 10
 
 [[extra.menu.main]]

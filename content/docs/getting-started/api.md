@@ -22,8 +22,6 @@ There are two message classes:
 - request/response messages, which always carry an `id`
 - notifications, which never carry an `id`
 
-For Internet-facing deployment guidance, read [Security And Deployment](./security.md).
-
 ## Requests
 
 Every request includes:
@@ -270,5 +268,3 @@ Composite keys use an ordered array of typed values:
   }
 }
 ```
-
-## `SizeOnDisk`
