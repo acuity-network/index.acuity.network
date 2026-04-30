@@ -19,10 +19,10 @@ Most on-chain programs are not really permissionless and those that *are* typica
 
 For a dapp to provide a rich user experience it needs various services that are inherently centralized. For example:
 * **Full Node** - State needs to be queried.
-* **Event Indexer** - State is kept as minimal as possible to keep transaction fees low. Emiting events is the solution, but there needs to be a centralized database of events that can be queried.
+* **Event Indexer** - State is kept as minimal as possible to keep transaction fees low. Emitting events is the solution, but there needs to be a centralized database of events that can be queried.
 * **IPFS Pinner** - Content published via IPFS does not stay available by itself. An always-on service must "pin" content for it to be available to other users.
 * **IPFS Address Cache** - It can take too long for a dapp to find who has the required IPFS content. An address cache can make this immediate, but this is an always-on, shared service.
-* **Content Search** - Full text search is is expected in a modern app, but this is an inherently centralized service.
+* **Content Search** - Full text search is expected in a modern app, but this is an inherently centralized service.
 * **AI** - Users want powerful AI features that they will not run on their local device.
 
 While these services are essentially impossible to implement in a peer-to-peer manner, they can be implemented in a federated manner provided they are standardized. If there is a flock of available backend providers to pick from, the dapp can switch ad-hoc between them. 
@@ -33,11 +33,11 @@ When querying an event indexer it is also possible to verify the events are corr
 
 If the IPFS hash is proven to be correct by a finality proof, then the content retrieved from IPFS is guaranteed to be correct.
 
-Positive content search results can be verified by examining the content. Again, it is not possible to prove that a search service has left something out, but a dapp can query different service services over time to determine which ones are trustworthy.
+Positive content search results can be verified by examining the content. Again, it is not possible to prove that a search service has left something out, but a dapp can query different services over time to determine which ones are trustworthy.
 
 Users could use multiple IPFS pinning services to ensure content remains available.
 
-As there are mulitple providers, they will compete against each other on various criteria.
+As there are multiple providers, they will compete against each other on various criteria.
 
 
 ## What is Acuity Index?
@@ -64,7 +64,7 @@ Acuity Index 0.8.0 has just been released for experimentation. It has the follow
 - Prometheus / OpenMetrics monitoring
 - Full unit and integration testing
 
-Examine the [documentation](https://index.acuity.network/docs/about/problem/) to see how is works.
+Examine the [documentation](https://index.acuity.network/docs/about/problem/) to see how it works.
 
 Here's a screencast showing how a dapp can query events with Acuity Index to create a rich user interface:
 
@@ -76,7 +76,7 @@ Here's the [repo](https://github.com/acuity-network/acuity-dioxus) for the dapp.
 
 <img src="/acuity-index.svg" style="width: 100%; height: auto;"></img>
 
-While an instance of Acuity index can be hosted and a dapp hard-wired to use it, the intention is that there are multiple indexes available for each dapp.
+While an instance of Acuity Index can be hosted and a dapp hard-wired to use it, the intention is that there are multiple indexes available for each dapp.
 The idea is that anyone can host a standardized index and potentially get paid to do so. Here is how it will work.
 
 The Acuity DAO will establish the correct index spec for a given chain. Anyone hosting that index for the public can pay a deposit to register their endpoint on the Acuity blockchain. There is a micropayment system where dapps can query different providers in an ad-hoc manner, determining which ones tend to work the best and charge the least. The fees are paid to the index operator in ACU, the native coin of the Acuity blockchain. The dapp user has the option to pay in any currency as this will be routed through the [Hydration](https://hydration.net/) exchange on Polkadot.
