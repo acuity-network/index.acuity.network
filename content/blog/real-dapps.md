@@ -42,7 +42,7 @@ As there are mulitple providers, they will compete against each other on various
 
 ## What is Acuity Index?
 
-Acuity Index is part of the broader [Acuity](https://acuity.network/) decentralized CMS.
+[Acuity Index](https://index.acuity.network/) is part of the broader [Acuity](https://acuity.network/) decentralized CMS.
 
 It is a federated, multi-chain Polkadot event indexer with finality proofs, primarily intended to make dapps fully decentralized.
 
@@ -64,7 +64,7 @@ Acuity Index 0.8.0 has just been released for experimentation. It has the follow
 - Prometheus / OpenMetrics monitoring
 - Full unit and integration testing
 
-Examine the [documentation](/docs/about/overview) to see how is works.
+Examine the [documentation](https://index.acuity.network/docs/about/problem/) to see how is works.
 
 Here's a screencast showing how a dapp can query events with Acuity Index to create a rich user interface:
 
