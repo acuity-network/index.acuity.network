@@ -48,8 +48,6 @@ It is a federated, multi-chain Polkadot event indexer with finality proofs, prim
 
 It was originally called Hybrid and was funded by two ([1](https://github.com/w3f/Grants-Program/blob/master/applications/hybrid.md), [2](https://github.com/w3f/Grants-Program/blob/master/applications/hybrid2.md)) Web3 Foundation grants and a Kusama Treasury [referendum](https://kusama.subsquare.io/referenda/534). A second funding referendum [failed](https://kusama.subsquare.io/referenda/567). Treasury funding for a Kusama Forum based on Acuity Index has been [secured](https://kusama.subsquare.io/referenda/603).
 
-Due to AI, reliance on funding for the development of the project is no longer necessary. The development of Acuity Index has massively accelerated. Already in 2026, more work on the indexer has been completed than in all the previous years combined. Examine the [commit log](https://github.com/acuity-network/acuity-index/commits/master/).
-
 [Acuity Index 0.8.0](https://crates.io/crates/acuity-index/0.8.0) has just been released for experimentation. It has the following features:
 
 - Config-driven indexing with support for compound keys and multi-keys
